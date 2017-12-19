@@ -56,9 +56,7 @@
 
 <p>My research seeks to harness the power of modern molecular methods to broadly investigate how assemblages of microbes (archaea, bacteria, fungi, and other microbial eukaryotes) function in their environment, change across different spatial scales, and interact with one another in terrestrial ecosystems. I also have a keen interest in mycology as well as taxonomy, and I am a bit of a digital geek at heart.</p>
 
-<pre><code>&gt; rm(list = ls())
-&gt; library(shiny)
-&gt; runApp("funguild")
+<pre><code>&gt; ggplot(rich, aes(map_id = state, fill=Richness)) + geom_map(map = states_map, colour="black") + scale_fill_gradient2(mid="white", high="firebrick1", midpoint=0) + expand_limits(x = states_map$long, y = states_map$lat) + coord_map("polyconic")
 </code></pre>
 
 <h3>
@@ -78,10 +76,18 @@
 <li><a href="http://scholar.google.com/citations?user=rF2z2WcAAAAJ&amp;hl=en" target="_blank">Google Scholar</a></li>
 <li><a href="http://onlinelibrary.wiley.com/doi/10.1111/mec.12481/full" target="_blank">Sequence-Based Fungal IDs</a> via <a href="https://unite.ut.ee/" target="_blank">UNITE</a></li>
 </ul>
+  
+<h3>
+<a id="news" class="anchor" href="#news" aria-hidden="true"><span class="octicon octicon-link"></span></a>News:</h3>
+<ul>
+<li><a href="http://ecology.phjc.org/index.php/2017/12/06/the-number-of-known-macrofungi-in-indiana-just-doubled-with-this-recent-publication/" target="_blank">Indiana macrofungi checklist in the blogosphere</a></li>
+</ul>
 
 <h3>
 <a id="select-publications" class="anchor" href="#select-publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Select Publications:</h3>
 
+<p>Bates ST, Golday JS, Kunnen R, and Pilla NJ. 2017. Checklist of Indiana fungi I: Macrofungi. <a href="http://www.stbates.org/literature/Bates_et_al_2017_PIAS_126_12%e2%80%933.pdf" target="_blank">Proceedings of the Indiana Academy of Science 126: 12–34</a>.</p>
+  
 <p>Price JT, Paladino FV, Lamont MM, Witherington BE, Bates ST, Soule T. 2017. Characterization of the juvenile green turtle (<i>Chelonia mydas</i>) microbiome throughout an ontogenic shift from pelagic to neritic habitats. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177642" target="_blank">PLoS ONE 12: e0177642</a>.</p>
 
 <p>Bates ST, Chapman RM, Islam MB, Schwabe A, Wardenaar ECP, Evenson VS. 2016. The phylogenetic placement of the secotioid fungus Araneosa columellata within Agaricus. <a href="http://www.ingentaconnect.com/contentone/mtax/mt/2016/00000131/00000001/art00012" target="_blank">Mycotaxon 131: 103-110</a>.</p>
